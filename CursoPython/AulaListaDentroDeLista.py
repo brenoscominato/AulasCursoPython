@@ -6,3 +6,4 @@ salas = [
     ['Tubarao', 'Falcao', 'Raposa', (0, 10, 20, 30, 40)]
 ]
 print(salas[2][3][2])
+print(salas[2][3][1])

@@ -43,11 +43,14 @@ while True:
         resultado_multiplicacao += lista_contada * int(lista_cpf_contada)
 
     if resultado_multiplicacao % 11 < 2:
+        segundo_digito = 0
         print('O segundo digito verificador é: 0')
     else:
-        print(f'O segundo digito verificador é: {11 - (resultado_multiplicacao % 11)}')
+        segundo_digito = 11 - (resultado_multiplicacao % 11)
+        print(f'O segundo digito verificador é: {segundo_digito}')
 
     # print(*lista_contagem)
     # print(*lista_cpf)
-    print(f'Resultado da multiplicação: {resultado_multiplicacao}')
+    print ('Seu cpf completo é: ' + cpf + str(primeiro_digito) + str(segundo_digito))
+    #print(f'Resultado da multiplicação: {resultado_multiplicacao}')
     break

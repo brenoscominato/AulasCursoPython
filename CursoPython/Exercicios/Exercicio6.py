@@ -36,6 +36,8 @@ while True:
             print(f'{i} é impar')
     break
 """
+
+''''
 # Maior ou Menos
 
 lista = []
@@ -63,3 +65,20 @@ while True:
     print(maior)
     print(menor)
     break
+'''
+#Numeros primos
+
+numero = int(input("Digite um numero: "))
+divisoes = 2
+primo = True
+
+while True:
+    while divisoes < numero:
+        if numero % divisoes == 0:
+            primo = False
+        divisoes+=1
+    print(primo)
+    break
+
+
+

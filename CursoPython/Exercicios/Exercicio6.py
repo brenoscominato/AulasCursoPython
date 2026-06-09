@@ -109,7 +109,6 @@ while True:
             continue
     break
 print(contador)
-#print(letra)
 
     
 

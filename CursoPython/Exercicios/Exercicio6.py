@@ -66,6 +66,7 @@ while True:
     print(menor)
     break
 '''
+""""
 #Numeros primos
 
 numero = int(input("Digite um numero: "))
@@ -79,6 +80,38 @@ while True:
         divisoes+=1
     print(primo)
     break
+"""
+
+""""
+#contador de letras
+
+contaespaco = 0
+
+while True:
+    frase = str(input('Digite uma frase: '))
+    for i in frase:
+        if i == " ":
+            contaespaco+=1
+    break
+print(f'Na frase tem {contaespaco} espaços')
+print(f'Na frase tem {contaespaco + 1} palavras')
+"""
+
+contador = 0
+
+while True:
+    meu_nome = str(input('Digite seu nome: '))
+    for letra in meu_nome:
+        print(letra)
+        if letra != ' ':
+            contador+=1
+        else:
+            continue
+    break
+print(contador)
+#print(letra)
+
+    
 
 
 

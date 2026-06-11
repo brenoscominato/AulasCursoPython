@@ -10,9 +10,19 @@
 
 # print(nome() + ' Silva Cominato')
 
-def saudacao(nome, sobrenome = 'Silva'):
-    print(f'Olá, {nome}. Seu sobrenome é {sobrenome}')
+# def saudacao(nome, sobrenome = 'Silva'):
+#     print(f'Olá, {nome}. Seu sobrenome é {sobrenome}')
 
-saudacao('Breno', 'Cominato')
-saudacao('Breno')
+# saudacao('Breno', 'Cominato')
+# saudacao('Breno')
+
+def multiplo_de(numero, multiplo):
+    resultado = numero % multiplo == 0
+    print(f'{numero} é múltiplo de {multiplo}?', end=' ')
+    print(resultado)
+ 
+ 
+multiplo_de(16, 9)
+multiplo_de(15, 3)
+multiplo_de(10, 2)
 

@@ -5,7 +5,14 @@
 # imprimir(4, 5, 6)
 
 
-def nome():
-    return 'Breno'
+# def nome():
+#     return 'Breno'
 
-print(nome() + ' Silva Cominato')
+# print(nome() + ' Silva Cominato')
+
+def saudacao(nome, sobrenome = 'Silva'):
+    print(f'Olá, {nome}. Seu sobrenome é {sobrenome}')
+
+saudacao('Breno', 'Cominato')
+saudacao('Breno')
+

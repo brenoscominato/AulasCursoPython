@@ -6,7 +6,7 @@ para o parametro, o valor será usado.
 Refatorar: Editar o seu codigo
 """
 
-def soma(x, y, z=None)
+def soma(x, y, z=None):
     if z is not None:
         print(f'{x=} {y=} {z=}', x + y + z)
     else:

@@ -12,11 +12,13 @@ x = 1
 def escopo():
     #global x
     x= 10
+    
     def outra_funcao():
         #global x
         x = 11
         y = 2
         print(x , y)
+
         def nova_funcao(nome, sobrenome):
             print(f'Seu nome é {nome} e seu sobrenome é {sobrenome}')
             
@@ -27,6 +29,7 @@ def escopo():
                     print(f'{x=} {y=}', x * y)
             multiplica(3, 3)
             multiplica(2, 2, 1)
+
         nova_funcao(nome='Breno', sobrenome='Cominato')
     outra_funcao()
     print(x)

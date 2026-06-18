@@ -36,7 +36,3 @@ pessoa2 = informacoes_pessoais('Nathalia', 29, 'Feminino')
 
 print(pessoa1())
 print(pessoa2())
-
-
-
-

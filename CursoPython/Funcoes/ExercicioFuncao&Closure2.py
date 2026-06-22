@@ -25,14 +25,29 @@
 # print(conta1(23))
 # print(conta2(18))
 
-def informacoes_pessoais(nome, idade, sexo):
-    def pessoa():
-        return f'Seu nome é {nome}, você tem {idade} anos de idade e é do sexo {sexo}'
-    return pessoa
+# #FUNCAO QUE COMPLETA AS INFORMACOES
+# def informacoes_pessoais(nome, idade, sexo):
+#     def pessoa():
+#         return f'Seu nome é {nome}, você tem {idade} anos de idade e é do sexo {sexo}'
+#     return pessoa
 
 
-pessoa1 = informacoes_pessoais('Breno', 28, 'Masculino')
-pessoa2 = informacoes_pessoais('Nathalia', 29, 'Feminino')
+# pessoa1 = informacoes_pessoais('Breno', 28, 'Masculino')
+# pessoa2 = informacoes_pessoais('Nathalia', 29, 'Feminino')
 
-print(pessoa1())
-print(pessoa2())
+# print(pessoa1())
+# print(pessoa2())
+
+
+def gerar_multiplicador(fator):
+    def multiplica(numero):
+        return fator * numero
+    return multiplica
+    
+
+
+dobrar = gerar_multiplicador(2)
+triplicar = gerar_multiplicador(3)
+
+print(dobrar(5))
+print(triplicar(5))

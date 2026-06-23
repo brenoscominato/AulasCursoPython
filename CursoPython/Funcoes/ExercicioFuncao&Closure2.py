@@ -38,7 +38,7 @@
 # print(pessoa1())
 # print(pessoa2())
 
-
+#FUNCAO MULTIPLICA QUE GUARDA UM PARAMETRO E GERA OUTRA FUNCAO(CLOSURE)
 def gerar_multiplicador(fator):
     def multiplica(numero):
         return fator * numero

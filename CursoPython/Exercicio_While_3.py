@@ -1,4 +1,4 @@
-nome = 'Breno Silva Cominatoo'
+nome = 'Breno Silva Cominato'
 
 i = 0
 qtd_mais_vezes = 0

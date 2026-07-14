@@ -1,3 +1,5 @@
+#EXERCICIO DE DICIONÁRIO - JOGO DE PERGUNTA E RESPOSTA
+""""
 perguntas = [
     {
         'Pergunta': 'Quanto é 2+2?',
@@ -27,3 +29,37 @@ for pergunta in perguntas:
         print('Você acertou! 🎉')
     else:
         print('Você errou! ❌')
+"""
+#EXERCICIO DE DICIONARIO - CHAVES E DICIONARIOS INTERNOS
+""""
+contatos = {
+              'Nathalia': {'telefone': '99999-0000', 'email': 'nathalia@email.com', 'sexo': 'F'},
+        'Breno': {'telefone': '98888-1111', 'email': 'breno@email.com', 'sexo': 'M'},
+}
+
+nome_buscado = input('Digite um dos nomes abaixo:\nBreno\nou\nNathalia\n\n').capitalize()
+
+if nome_buscado in contatos:
+    dados_do_contato = contatos[nome_buscado]
+
+    print('\nDados Encontrado: ')
+    print(f'Telefone: {dados_do_contato['telefone']}')
+    print(f'E-mail: {dados_do_contato['email']}')
+    print(f'Sexo: {dados_do_contato['sexo']}')
+else:
+    print("\nContato não encontrado!")
+"""
+
+frase = input('Digite uma frase: ')
+palavras = frase.split()
+
+quantidade = {}
+
+for palavra in palavras:
+    if palavra in quantidade:
+        quantidade[palavra] += 1
+    else:
+        quantidade[palavra] = 1
+print(quantidade)
+for palavra, contagem in quantidade.items():
+    print(f'- "{palavra}": {contagem} vez(es)')

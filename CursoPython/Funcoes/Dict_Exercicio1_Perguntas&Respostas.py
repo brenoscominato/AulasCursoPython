@@ -83,4 +83,11 @@ for pizza, contagem in pizzas.items():
     print(f'- "{pizza}": {contagem} vez(es)')
 """
 
-#ESTE AQUI É UM TESTE
+catalogo = {
+    'camiseta': 39.90,
+    'calça': 89.90,
+    'tênis': 199.90,
+    'boné': 29.90,
+}
+
+Carrinho = {}

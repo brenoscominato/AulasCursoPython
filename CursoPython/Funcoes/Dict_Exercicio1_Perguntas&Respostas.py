@@ -49,7 +49,8 @@ if nome_buscado in contatos:
 else:
     print("\nContato não encontrado!")
 """
-
+# EXERCICIO DE DICIONARIO - CONTAGEM DE PALAVRAS E ADICIONANDO NO DICIONARIO
+""""
 frase = input('Digite uma frase: ')
 palavras = frase.split()
 
@@ -63,3 +64,21 @@ for palavra in palavras:
 print(quantidade)
 for palavra, contagem in quantidade.items():
     print(f'- "{palavra}": {contagem} vez(es)')
+
+########################################################################################
+#MESMO EXERCICIO QUE ACIMA
+
+sabores = input('Digite os sabores das pizzas para a próxima confraternizacao: ')
+lista_sabores = sabores.split()
+
+pizzas = {}
+
+for pizza in lista_sabores:
+    if pizza in pizzas:
+        pizzas[pizza] +=1
+    else:
+        pizzas[pizza] = 1
+print(pizzas)
+for pizza, contagem in pizzas.items():
+    print(f'- "{pizza}": {contagem} vez(es)')
+"""

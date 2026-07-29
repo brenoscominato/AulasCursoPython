@@ -1,5 +1,5 @@
 #EXERCICIO DE DICIONÁRIO - JOGO DE PERGUNTA E RESPOSTA
-""""
+
 perguntas = [
     {
         'Pergunta': 'Quanto é 2+2?',
@@ -29,7 +29,7 @@ for pergunta in perguntas:
         print('Você acertou! 🎉')
     else:
         print('Você errou! ❌')
-"""
+
 #EXERCICIO DE DICIONARIO - CHAVES E DICIONARIOS INTERNOS
 """"
 contatos = {
@@ -66,6 +66,7 @@ print(quantidade)
 for palavra, contagem in quantidade.items():
     print(f'- "{palavra}": {contagem} vez(es)')
 """
+""""
 ########################################################################################
 #MESMO EXERCICIO QUE ACIMA
 
@@ -82,6 +83,7 @@ for pizza in lista_sabores:
 print(pizzas)
 for pizza, contagem in pizzas.items():
     print(f'- "{pizza}": {contagem} vez(es)')
+"""
 
 """"
 catalogo = {
